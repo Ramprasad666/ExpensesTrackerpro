@@ -1,0 +1,109 @@
+.Mainbody {
+    background-color: rgba(126, 183, 215, 0.653);
+    width: 100%;
+    margin-top: 0px;
+    height: 1000px;
+}
+
+.manageprofile {
+    font-size: 45px;
+    margin-left: 20px;
+    opacity: 0.7;
+    border-radius: 10%;
+    color: black;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.manageprofile:hover {
+    cursor: pointer;
+}
+
+#downloaded {
+    display: flex;
+    width: 98%;
+    justify-content: flex-end;
+    position: relative; 
+}
+
+#downloaded .downloadbutton {
+    font-size: 45px;
+    text-align: right;
+    margin-top: -50px;
+    color: black;
+    opacity: 0.7;
+    padding: 2px;
+    border-radius: 10%;
+    position: relative;
+}
+
+#midcon
+{
+    display: flex;
+    width: 98%;
+}
+#midcon .headercontent
+{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+   margin: auto;
+}
+
+#boxes
+{
+    width: 98%;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+#boxes .box1
+{
+width:500px;
+background-color: aliceblue;
+margin-right: 100px;
+border-radius: 10px;
+border: 3px dotted rgba(60, 242, 96, 0.947);
+}
+#boxes .box2
+{
+width:500px;
+background-color: aliceblue;
+border-radius: 10px;
+border: 3px dotted rgba(60, 242, 96, 0.947);
+}
+
+.underline {
+    width: 230px;
+    height: 6px;
+    background-color: rgba(218, 44, 237, 0.765);
+    border-radius: 9px;
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+#clickmanageprofile
+{
+ 
+  height: 250px;
+  width: 400px;
+  background-color: lightgray;
+  position: absolute;
+  top: 70px; 
+  left: 10px;
+  margin-left: 20px;
+}
+
+#clickmanageprofile h2{
+    text-align: left;
+}

@@ -1,0 +1,235 @@
+
+.main {
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+    height: 1500px;
+}
+
+.menuicon {
+    font-size: 50px;
+    margin-left: 20px;
+    opacity: 0.7;
+    border-radius: 50%;
+    color: black;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.menuicon:hover {
+    cursor: pointer;
+}
+
+#set {
+    display: flex;
+    width: 98%;
+    justify-content: flex-end;
+    position: relative; 
+}
+
+#set .usersetting {
+    font-size: 45px;
+    text-align: right;
+    margin-top: -50px;
+    opacity: 0.7;
+    border: 3px solid lightgrey;
+    padding: 2px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.usersetting:hover {
+    cursor: pointer;
+}
+
+#profile {
+    width: 100%;
+    display: flex;
+}
+
+#profile img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border: 3px solid rgba(0, 0, 0, 0.329);
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 100px;
+}
+
+h2 {
+    text-align: center;
+    opacity: 0.8;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.line {
+    width: 200px;
+    height: 6px;
+    background-color: rgba(0, 0, 139, 0.765);
+    border-radius: 9px;
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+#trans {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 150px;
+
+    margin-bottom: 50px;
+}
+
+#trans button {
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.831);
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+#transname {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 190px;
+}
+
+#inputmoney {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #inputmoney input {
+    padding: 10px;
+    font-size: 16px;
+    width: 230px;
+    margin: 10px;
+  }
+  
+  #trans button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+
+h3 {
+    font-size: 20px;
+    margin-left: -10px;
+    opacity: 0.8;
+}
+
+#profilesetting {
+    width: 450px;
+    height: 550px;
+    background-color: lightblue;
+    border-radius: 20px;
+    position: absolute;
+    top: 80px; 
+    right:20px; 
+    z-index: 1; 
+    border: 1px solid black;
+}
+
+#profilesetting .profilepic {
+    width: 150px;
+    height: 150px;
+    margin-left: 120px;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    background-color: aliceblue;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+
+.cam {
+    font-size: 32px;
+    margin-left: -40px;
+    color: rgb(30, 30, 225);
+    margin-bottom: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.311);
+    border-radius: 15px;
+}
+
+.imageopt {
+    height: 35px;
+    margin-right: 10px;
+    margin-left: -10px;
+}
+
+.imageopt1 {
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+
+
+input, p {
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.sub1
+{
+    background-color: darkmagenta;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.menuclick
+{
+    height: 100px;
+    width: 200px;
+    background-color:lightgray;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 70px; 
+    left: 10px;
+    
+}
+
+.menuclick h3
+{
+    padding-left: 15px;
+    font-size: 19px;
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.down
+{
+    color: black;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-bottom:-10px;
+    font-size: 20px;
+}
+
+
+.chartContainer {
+    width:300px; 
+    margin: auto; 
+    height: auto; 
+  }
